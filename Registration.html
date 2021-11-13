@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./Registration.css">
+</head>
+
+<body>
+    <div class="registration-form">
+        <h1>Registration form</h1>
+        <form action="#" method="post">
+            <p>Full Name</p>
+            <input type="text" name="full name" maxlength="20" minlength="3" placeholder="Full Name">
+            <p>User Name</p>
+            <input type="text" name="username" maxlength="12" minlength="5" placeholder="User Name">
+            <p>Email</p>
+            <input type="email" name="email" maxlength="35" minlength="5" placeholder="Email" pattern="..+@.+\..+">
+            <p>Password</p>
+            <input type="password" name="password" minlength="5" placeholder="Password">
+            <label>Gender</label>
+            <select>
+            <option>Male</option>
+            <option>Female</option>
+        </select><br>
+
+            <button class="sb" type="submit">Registration</button>
+            <button class="rg" type="reset">Reset</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
